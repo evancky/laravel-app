@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.disabled-input {
+    background-color: #e2e8f0; /* Light gray background */
+    cursor: not-allowed;      /* Change cursor to indicate non-editable */
+    color: #9ca3af;           /* Gray text to indicate disabled state */
+}
+
+.disabled-input:hover {
+    background-color: #cbd5e1; /* Slightly darker gray on hover */
+}
